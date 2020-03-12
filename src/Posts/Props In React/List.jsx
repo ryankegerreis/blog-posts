@@ -17,7 +17,7 @@ export default class List extends Component {
   render() {
     return (
       <div>
-        <ul>
+        <ul className="list-group">
           {this.state.names.map((eachName) => {
             return <ListItem key={Math.random()} item={eachName} />
           })}
