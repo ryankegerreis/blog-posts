@@ -1,11 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+// Props In React
+import Title from "./Posts/Props In React/Title"
+import List from "./Posts/Props In React/List"
 
 function App() {
   return (
-    <div className="App">
-      Test
+    <div className="center">
+      <Title title={"Name List"} />
+      <List />
     </div>
   );
 }

@@ -1,0 +1,10 @@
+/* Props in React */
+.center{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+li{
+  list-style-type: none;
+}
